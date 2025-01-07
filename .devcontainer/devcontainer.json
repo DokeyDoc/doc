@@ -1,9 +1,9 @@
 {
-    "dockerFile": "../Dockerfile",
+    "dockerFile": "../Dockerfile", // Corrigez le chemin si nécessaire
     "build": {
         "target": "dev"
     },
-    "postStartCommand": "mkdocs serve",
+    "postStartCommand": "mkdocs serve", // Assurez-vous que le port est explicitement défini
     "customizations": {
         "vscode": {
             "extensions": [
